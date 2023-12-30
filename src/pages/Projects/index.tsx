@@ -47,7 +47,7 @@ function createData(
   };
 }
 const rows = [
-  createData('Henrique-site', 'https://henriqueportifolio.vercel.app/', 50, 4, ' React, React-Dom, TypeScript, CSS, SCSS, Alura,  Materials UI, Recoil'),
+  createData('Henrique-SitePortifolio', 'https://henriqueportifolio.vercel.app/', 50, 4, ' React, React-Dom, TypeScript, CSS, SCSS, Alura,  Materials UI, Recoil'),
   createData('legarden-site', 'https://legarden-site.vercel.app/', 50, 6, ' Next.js, JavaScript, TypeScript, Alura, CSS, HTML, GraphQL, DatoCMS, Recoil'),
 
 ];
