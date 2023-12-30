@@ -92,7 +92,7 @@ export default function CustomizedTables() {
                   <StyledTableCell align='center' sx={{}} style={{
                     backgroundColor: darkMode ? '#011e4d' : '#427D9D',
                     color: darkMode ? '#90afe0' : '#000000'
-                  }} >GitHub repository</StyledTableCell>
+                  }} >GitHub repository (if not private)</StyledTableCell>
                   <StyledTableCell align='center' sx={{}} style={{
                     backgroundColor: darkMode ? '#011e4d' : '#427D9D',
                     color: darkMode ? '#90afe0' : '#000000'
@@ -182,7 +182,7 @@ export default function CustomizedTables() {
                   fontWeight: 'bold', fontSize: 50,
                   color: darkMode ? 'white' : '#03001e'
                 }} >
-                  Link to GitHub repository
+                  Link to GitHub repository(if not private)
                 </Typography>
               </h2>
               {rows.map((row, i) => (
